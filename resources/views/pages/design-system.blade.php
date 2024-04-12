@@ -228,4 +228,39 @@
             </div>
         </div>
     </div>
+
+    <h3 class="text-center text-headlines-3">Effects</h3>
+    <div class="container overflow-x-hidden mx-auto p-16 flex items-start justify-start flex-col gap-3">
+        <div class="flex items-center justify-evenly flex-wrap gap-3">
+            <div class="flex lg:w-80 text-body-medium-1">Shadows</div>
+            <div class="flex md:items-center items-start md:justify-center justify-start flex-wrap gap-12">
+                <div class="flex flex-col">
+                    <div class="w-32 h-32 bg-neutral-white shadow-xs rounded mb-10"></div>
+                    <span>2px,</span>
+                    <span>#ABBED1 (60%)</span>
+                </div>
+                <div class="flex flex-col">
+                    <div class="w-32 h-32 bg-neutral-white shadow-sm rounded mb-10"></div>
+                    <span>4px,</span>
+                    <span>#ABBED1 (40%)</span>
+                </div>
+                <div class="flex flex-col">
+                    <div class="w-32 h-32 bg-neutral-white shadow-md rounded mb-10"></div>
+                    <span>6px,</span>
+                    <span>#ABBED1 (30%)</span>
+                </div>
+                <div class="flex flex-col">
+                    <div class="w-32 h-32 bg-neutral-white shadow-lg rounded mb-10"></div>
+                    <span>8px,</span>
+                    <span>#ABBED1 (40%)</span>
+                </div>
+                <div class="flex flex-col">
+                    <div class="w-32 h-32 bg-neutral-white shadow-xl rounded mb-10"></div>
+                    <span>16px,</span>
+                    <span>#ABBED1 (30%)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
 @endsection

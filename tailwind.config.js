@@ -85,6 +85,13 @@ export default {
                 lineHeight: '16px',
                 fontWeight: 500
             }]
+        },
+        boxShadow: {
+            'xs': '0 2px 4px 0 rgba(171, 190, 209, 0.6)',
+            'sm': '0 4px 8px 0 rgba(171, 190, 209, 0.4)',
+            'md': '0 6px 12px 0 rgba(171, 190, 209, 0.3)',
+            'lg': '0 8px 16px 0 rgba(171, 190, 209, 0.4)',
+            'xl': '0 16px 32px 0 rgba(171, 190, 209, 0.3)',
         }
     },
   },
