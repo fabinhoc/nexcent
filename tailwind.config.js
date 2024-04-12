@@ -36,6 +36,56 @@ export default {
             error: '#E53835',
             success: '#2E7D31'
         },
+        fontSize: {
+            'headlines-1': ['64px', {
+                lineHeight: '76px',
+                fontWeight: 600
+            }],
+            'headlines-2': ['36px', {
+                lineHeight: '36px',
+                fontWeight: 700
+            }],
+            'headlines-3': ['28px', {
+                lineHeight: '28px',
+                fontWeight: 700
+            }],
+            'headlines-4': ['20px', {
+                lineHeight: '28px',
+                fontWeight: 600
+            }],
+            'body-regular-1': ['18px', {
+                lineHeight: '28px',
+                fontWeight: 400
+            }],
+            'body-regular-2': ['16px', {
+                lineHeight: '24px',
+                fontWeight: 400
+            }],
+            'body-regular-3': ['14px', {
+                lineHeight: '20px',
+                fontWeight: 400
+            }],
+            'body-regular-4': ['12px', {
+                lineHeight: '16px',
+                fontWeight: 400
+            }],
+            'body-medium-1': ['18px', {
+                lineHeight: '28px',
+                fontWeight: 500
+            }],
+            'body-medium-2': ['16px', {
+                lineHeight: '24px',
+                fontWeight: 500
+            }],
+            'body-medium-3': ['14px', {
+                lineHeight: '20px',
+                fontWeight: 500
+            }],
+            'body-medium-4': ['12px', {
+                lineHeight: '16px',
+                fontWeight: 500
+            }]
+        }
     },
   },
   plugins: [],
