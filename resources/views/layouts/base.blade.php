@@ -15,7 +15,11 @@
     @vite('resources/css/app.css')
 </head>
 
+
 <body class="antialiased min-h-screen w-full">
+    <header>
+        @include('layouts.header')
+    </header>
     <main>
         @yield('content')
     </main>
